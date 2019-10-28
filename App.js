@@ -64,6 +64,7 @@ class IconWithBadge extends Component {
 }
 const HomeIconWithBadge = props => {
   // You should pass down the badgeCount in some other ways like context, redux, mobx or event emitters.
+  //==============================================================================================
   return <IconWithBadge {...props} badgeCount={3} />;
 };
 
@@ -95,7 +96,7 @@ export default createAppContainer(
       }),
       tabBarOptions: {
         activeTintColor: 'tomato',
-        inactiveTintColor: 'gray',
+        inactiveTintColor: 'blue',
       },
     }
   )
